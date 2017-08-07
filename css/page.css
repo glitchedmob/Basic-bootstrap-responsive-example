@@ -1,0 +1,62 @@
+/* 
+ * Primary Grey #2c3e50
+ * Secondary Grey #233140
+ * Green #18bc9c
+*/
+h1, h2 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+.dark-hr {
+	border-bottom: 5px solid #333;
+	width: 250px;
+}
+
+.white-hr {
+	border-bottom: 5px solid #FFF;
+	width: 250px;
+}
+
+@media(max-width: 768px) {
+	.mobile-block {
+		display: block;
+	}
+}
+
+.green-section {
+	background-color: #18bc9c;
+	color: #FFF;
+	text-align: center;
+}
+
+.intro-header {
+	padding: 200px 0;
+}
+
+@media(max-width: 992px) {
+	.intro-header {
+		padding: 100px 0;
+	}
+}
+
+.intro-header p {
+	font-size: 2.2rem;
+}
+
+.portfolio {
+	text-align: center;
+}
+
+.portfolio-img img {
+	margin: 15px;
+	width: 100%;
+}

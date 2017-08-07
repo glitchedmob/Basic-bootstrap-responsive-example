@@ -14,28 +14,45 @@
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-		color: #FFF;
-		font-size: 2.2rem;
-		padding: 22px 15px;
+	color: #FFF;
+	font-size: 2.2rem;
+	padding: 22px 15px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.navbar-default .navbar-brand {
+		position: relative;
+		top: -3px;
+	}
 }
 
 .navbar-default .navbar-nav > li > a {
-		color: #FFF;
-		padding: 22px 15px;
+	color: #FFF;
+	padding: 22px 15px;
+	text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #18bc9c;
+	color: #18bc9c;
 }
 
 .navbar-toggle {
 	padding: 9px 10px;
 }
 
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #18bc9c;
+}
+
 .navbar-toggle p {
 	color: #FFF;
 	display: inline-block;
+	margin: 0;
+	position: relative;
+	top: -2px;
 }
 
 .navbar-toggle .menu-icon {
@@ -43,5 +60,5 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FFF;
+		background-color: #FFF;
 }
