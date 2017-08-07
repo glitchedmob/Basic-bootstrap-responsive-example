@@ -3,7 +3,7 @@
  * Secondary Grey #233140
  * Green #18bc9c
 */
-h1, h2 {
+h1, h2, h3 {
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -14,6 +14,10 @@ h1 {
 
 h2 {
 	font-size: 4rem;
+}
+
+h3 {
+	font-size: 3.2rem;
 }
 
 .dark-hr {
@@ -30,6 +34,11 @@ h2 {
 	.mobile-block {
 		display: block;
 	}
+}
+
+.row {
+	margin: 0;
+	padding: 0;
 }
 
 .green-section {
@@ -54,9 +63,65 @@ h2 {
 
 .portfolio {
 	text-align: center;
+	padding: 100px 0;
 }
 
 .portfolio-img img {
 	margin: 15px;
 	width: 100%;
+}
+
+@media(max-width: 768px) {
+	.portfolio-img img {
+		margin: 15px 0;
+	}
+}
+
+.about {
+	padding: 100px 0;
+}
+
+.about p {
+	text-align: left;
+	font-size: 1.9rem;
+}
+
+.about .btn.btn-default {
+	color: #FFF;
+	background-color: transparent;
+	border: 3px solid #FFF;
+}
+
+.about .btn.btn-default:hover,
+.about .btn.btn-default:focus {
+	color: #18bc9c;
+	background-color: #FFF;
+}
+
+.contact {
+	padding: 100px 0;
+}
+
+.contact h2 {
+	text-align: center;
+}
+
+.contact input,
+.contact textarea {
+	width: 100%;
+	padding: 5px;
+	font-size: 2rem;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 1px solid #333;
+}
+
+.contact .btn.btn-success {
+	background-color: #18bc9c;
+	border: 2px solid #18bc9c;
+}
+
+.contact .btn.btn-success:hover,
+.contact .btn.btn-success:focus {
+	background-color: #00A383;
 }
